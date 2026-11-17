@@ -12,15 +12,15 @@
           height: 100vh;
           margin: 0;
         }
-        .herat {
+        .heart {
           width: 100px;
           height: 100px;
           background-color: red;
           transform: rotate(-45deg);
           position: relative;
         }
-        .heart: :before,
-        .heart: :after{
+        .heart::before,
+        .heart::after; {
         content: "";
           width: 100px;
           height: 100px;
@@ -28,11 +28,11 @@
           border-radius: 50%;
           position: absolute;
         }
-        .heart: :before {
+        .heart::before {
           top: -50px;
           left: 0;
         }
-        .heart: :after {
+        .heart::after {
           left: 50px;
           top: 0;
         }
